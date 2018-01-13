@@ -8,6 +8,7 @@ def main():
     
     img1 = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
     
+    plt.subplot(121)
     plt.imshow(img)
     plt.title('Color Image BGR')
     plt.xticks([])
@@ -15,6 +16,7 @@ def main():
     plt.show()
  
     
+    plt.subplot(122)
     plt.imshow(img1)
     plt.title('Color Image RGB')
     plt.xticks([])
