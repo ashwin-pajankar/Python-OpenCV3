@@ -5,7 +5,7 @@ def main():
     
     path = "D:\\Youtube Code\\Python\\Python OpenCV3\\Python-OpenCV3\\Dataset\\"
     impath = path  + "4.2.07.tiff"
-    img = cv2.imread(impath, 1)
+    img = cv2.imread(imgpath, 1)
     
     img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
     
